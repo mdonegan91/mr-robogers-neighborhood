@@ -52,51 +52,47 @@ function robogerIntegerId5(input) {
 //     return inputArray;
 // }
 
-function robogerId1(input) {
+function robogerId(input) {
     const userInput = input.toString().split("");
-    const inputArray = [];
+    let userOutput = [];
     userInput.forEach(function (integer) {
         if (robogerIntegerId1(integer)) {
-            inputArray.push(true);
+            userOutput.push("Beep!");
+        } else if (robogerIntegerId3(integer)) {
+            userOutput.push("Boop!");
+        } else if (robogerIntegerId5(integer)) {
+            userOutput.push("Won't you be my neighbor?");
         } else {
-            inputArray.push(false);
+            return userOutput;
         }
     });
-    return inputArray;
+    return userOutput;
 }
 
-function robogerId3(input) {
-    const userInput = input.toString().split("");
-    const inputArray = [];
-    userInput.forEach(function (integer) {
-        if (robogerIntegerId3(integer)) {
-            inputArray.push(true);
-        } else {
-            inputArray.push(false);
-        }
-    });
-    return inputArray;
-}
-
-function robogerId5(input) {
-    const userInput = input.toString().split("");
-    const inputArray = [];
-    userInput.forEach(function (integer) {
-        if (robogerIntegerId5(integer)) {
-            inputArray.push(true);
-        } else {
-            inputArray.push(false);
-        }
-    });
-    return inputArray;
-}
-
-
-
-// function robogerReplace(input) {
+// function robogerId3(input) {
 //     const userInput = input.toString().split("");
 //     const inputArray = [];
-//     if (robogerIntegerId1)
+//     userInput.forEach(function (integer) {
+//         if (robogerIntegerId3(integer)) {
+//             inputArray.push(true);
+//         } else {
+//             inputArray.push(false);
+//         }
+//     });
+//     return inputArray;
+// }
+
+// function robogerId5(input) {
+//     const userInput = input.toString().split("");
+//     const inputArray = [];
+//     userInput.forEach(function (integer) {
+//         if (robogerIntegerId5(integer)) {
+//             inputArray.push(true);
+//         } else {
+//             inputArray.push(false);
+//         }
+//     });
+//     return inputArray;
 // }
 
 function oneWordPigLatin(text) {
@@ -119,12 +115,8 @@ function oneWordPigLatin(text) {
     }
 }
 
-
-
-
-
-for (let i=1; i<=100; i+=1){
-    if (i === 1){
+for (let i = 1; i <= 100; i += 1) {
+    if (i === 1) {
         console.log("Beep!");
     } else if (i === 3) {
         console.log("Boop!");
@@ -134,3 +126,22 @@ for (let i=1; i<=100; i+=1){
         console.log(i);
     }
 }
+
+// UI Logic
+window.addEventListener("load", function () {
+    const form = document.getElementById("numberInput");
+    form.addEventListener("submit", myNeighbor);
+})
+
+
+function handleFormSubmission() {
+    event.preventDefault();
+    const userNumber = document.getElementById("usernumber-input-id").value;
+    const theNeighborhood = myNeighbors(userNumber);
+    document.getElementById("user-house-number").innerText = userNumber;
+    document.getElementById("final-neighborhood").innerText = theNeighborhood;
+}
+
+window.addEventListener("load", function () {
+    this.document.querySelector("form#robogers-neighborhood").addEventListener("submit", handleFormSubmission);
+});
