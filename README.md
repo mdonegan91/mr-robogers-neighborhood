@@ -1,4 +1,4 @@
-# Describe: robogerInteger
+Describe: robogerInteger
 
 Test: "It should recognize the action integers (1, 3, 5)."
 Code: 
@@ -6,7 +6,7 @@ Code:
     robogerInteger(input)
 Expected Output: true
 
-# Describe: robogerIntegerId
+Describe: robogerIntegerId
 
 Test: "It should recognize all instances of an action integer in a number."
 Code:
@@ -14,10 +14,7 @@ Code:
     robogerIntegerId(input)
 Expected output: false, true
 
-Code:
-const text = "bae"
-const vowel = ["a", "e", "i", "o", "u"];
-Expected Output: false, true, true
+Describe
 
 Describe: beepBoop()
 
