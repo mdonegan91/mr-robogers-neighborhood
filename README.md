@@ -9,24 +9,21 @@ Expected Output: true -->
 Describe: robogerIntegerId1
 
 Test: "It should recognize action integer 1"
-Code:
-    robogerIntegerId1(1)
+Code: robogerIntegerId1(1)
 Expected output: true
 
 
 Describe: robogerIntegerId3
 
 Test: "It should recognize action integer 2"
-Code:
-    robogerIntegerId2(2)
+Code: robogerIntegerId2(2)
 Expected output: true
 
 
 Describe: robogerIntegerId3
 
 Test: "It should recognize action integer 3"
-Code:
-    robogerIntegerId1(3)
+Code: robogerIntegerId1(3)
 Expected output: true
 
 
@@ -62,27 +59,20 @@ Expected output: false, true -->
 Describe: robogerId
 
 Test: "For numbers containing an action integer 1, it should replace the entire number with 'Beep!'"
-Code:
-    robogerId1(14)
+Code: robogerId1(14)
 Expected output: 'Beep!'
 
 Test: "For numbers containing action integer 2, it should replace the entire number with 'Boop!'"
-Code:
-    robogerId(25)
+Code: robogerId(25)
 Expected output: 'Boop!'
 
 Test: "For numbers containing action integer 3, it should replace the entire number with 'Won't you be my neighbor?'"
-Code:
-    robogerId(35)
+Code: robogerId(35)
 Expected output: "Won't you be my neighbor?"
 
 
-
-<!-- 
-Describe: beepBoop()
+Describe: loopToNumber(num) 
 
 Test: "It should return an array of numbers from 0 to the user's inputted number"
-Code: beepBoop(5);
-Expected Output: [0, 1, 2, 3, 4, 5]
-
-Test: "It should..." // this is the start of 2nd test for beepBoop() -->
+Code: loopToNumber(6)
+Expected output: [0, 1, 2, 3, 4, 5, 6]
