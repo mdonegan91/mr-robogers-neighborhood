@@ -24,23 +24,23 @@ _A webpage that asks users to input a number between 1 and 100 and returns a mes
 
 #### Describe: loopToNumber(num) 
 
-#### Test: "It should return an array of numbers from 0 to the user's inputted number"
-#### Code: loopToNumber(6)
-#### Expected output: [0, 1, 2, 3, 4, 5, 6]
+##### Test: "It should return an array of numbers from 0 to the user's inputted number"
+##### Code: loopToNumber(6)
+##### Expected output: [0, 1, 2, 3, 4, 5, 6]
 
 #### Describe: robogerMessage
 
-#### Test: "For numbers containing an action integer 1, it should replace the entire number with 'beep!'"
-#### Code: robogerMesage1(14)
-#### Expected output: 'beep!'
+##### Test: "For numbers containing an action integer 1, it should replace the entire number with 'beep!'"
+##### Code: robogerMesage1(14)
+##### Expected output: 'beep!'
 
-#### Test: "For numbers containing action integer 2, it should replace the entire number with 'boop!'"  
-#### Code: robogerMessage(25)
-#### Expected output: 'boop!'
+##### Test: "For numbers containing action integer 2, it should replace the entire number with 'boop!'"  
+##### Code: robogerMessage(25)
+##### Expected output: 'boop!'
 
-#### Test: "For numbers containing action integer 3, it should replace the entire number with 'won't you be my neighbor?'"
-#### Code: robogerMessage(35)
-#### Expected output: "won't you be my neighbor?"
+##### Test: "For numbers containing action integer 3, it should replace the entire number with 'won't you be my neighbor?'"
+##### Code: robogerMessage(35)
+##### Expected output: "won't you be my neighbor?"
 
 ## Known Bugs
 
