@@ -6,7 +6,7 @@ Code:
 Expected Output: true -->
 
 
-Describe: robogerIntegerId1
+<!-- Describe: robogerIntegerId1
 
 Test: "It should recognize action integer 1"
 Code: robogerIntegerId1(1)
@@ -24,7 +24,7 @@ Describe: robogerIntegerId3
 
 Test: "It should recognize action integer 3"
 Code: robogerIntegerId1(3)
-Expected output: true
+Expected output: true -->
 
 
 <!-- Describe: robogerIntegerId

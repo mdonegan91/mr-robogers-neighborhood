@@ -1,0 +1,25 @@
+#roboger {
+    margin: auto;
+    margin-bottom: 15vh;
+    margin-top: 15vh;
+    width: 50vw;
+    display: block;
+    text-align: center;
+    border: dashed 1px rgb(0, 0, 0);
+    padding: 30px;
+    background-color: lemonchiffon;
+}
+
+#submit {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50vw;
+}
+
+#inputNumber {
+    margin: auto;
+    text-align: center;
+    background-color: lemonchiffon;
+    width: 50vw;
+}
