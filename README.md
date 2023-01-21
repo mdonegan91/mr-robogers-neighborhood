@@ -56,6 +56,13 @@ Code:
 Expected output: false, true -->
 
 
+Describe: loopToNumber(num) 
+
+Test: "It should return an array of numbers from 0 to the user's inputted number"
+Code: loopToNumber(6)
+Expected output: [0, 1, 2, 3, 4, 5, 6]
+
+
 Describe: robogerId
 
 Test: "For numbers containing an action integer 1, it should replace the entire number with 'Beep!'"
@@ -71,8 +78,3 @@ Code: robogerId(35)
 Expected output: "Won't you be my neighbor?"
 
 
-Describe: loopToNumber(num) 
-
-Test: "It should return an array of numbers from 0 to the user's inputted number"
-Code: loopToNumber(6)
-Expected output: [0, 1, 2, 3, 4, 5, 6]

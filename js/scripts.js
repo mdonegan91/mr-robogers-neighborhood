@@ -30,6 +30,14 @@ function robogerIntegerId3(input) {
 
 //Business Logic
 
+function loopToNumber(num) {
+    let output = "";
+    for (let i = 0; i <= num; i++) {
+        output += i + " ";
+    }
+    return output;
+}
+
 function robogerId(input) {
     const userInput = input.toString().split("");
     let userOutput = [];
@@ -47,14 +55,6 @@ function robogerId(input) {
         }
     });
     return userOutput;
-}
-
-function loopToNumber(num) {
-    let output = "";
-    for (let i = 0; i <= num; i++) {
-        output += i + " ";
-    }
-    return output;
 }
 
 // UI Logic
