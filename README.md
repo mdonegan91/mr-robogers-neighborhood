@@ -2,7 +2,7 @@
 
 #### By _**Molly Donegan**_
 
-#### _JavaScript and Web Browsers Independent Project_
+#### _Arrays and Looping Independent Project_
 
 ## Technologies Used
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-_A webpage that asks users to input a number between 1 and 100 and returns a message based on the number they choose._
+_A web application that takes a number from the user and returns a list of values from 0 to the user's inputted number with substitutions made within the returned list._
 
 ## Setup/Installation Requirements
 
@@ -30,7 +30,7 @@ _A webpage that asks users to input a number between 1 and 100 and returns a mes
 
 ### Describe: robogerMessage
 
-##### Test: "For numbers containing an action integer 1, it should replace the entire number with 'beep!'"
+##### Test: "For numbers containing action integer 1, it should replace the entire number with 'beep!'"
 ##### Code: robogerMesage1(14)
 ##### Expected output: 'beep!'
 
