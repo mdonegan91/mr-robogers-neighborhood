@@ -1,8 +1,8 @@
 #roboger {
     margin: auto;
-    margin-bottom: 15vh;
-    margin-top: 15vh;
-    width: 50vw;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    width: 300px;
     display: block;
     text-align: center;
     border: dashed 1px rgb(0, 0, 0);
@@ -14,12 +14,12 @@
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 50vw;
+    width: 200px;
 }
 
 #inputNumber {
     margin: auto;
     text-align: center;
     background-color: lemonchiffon;
-    width: 50vw;
+    width: 200px;
 }

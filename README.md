@@ -1,60 +1,26 @@
-<!-- Describe: robogerInteger
+# _My. Roboger's Neighborhood_
 
-Test: "It should recognize the action integers (1, 2, 3)."
-Code: 
-    robogerInteger(3)
-Expected Output: true -->
+#### By _**Molly Donegan**_
 
+#### _JavaScript and Web Browsers Independent Project_
 
-<!-- Describe: robogerIntegerId1
+## Technologies Used
 
-Test: "It should recognize action integer 1"
-Code: robogerIntegerId1(1)
-Expected output: true
+* _HTML_
+* _CSS_
+* _JavaScript_
 
+## Description
 
-Describe: robogerIntegerId3
+_A webpage that asks users to input a number between 1 and 100 and returns a message based on the number they choose._
 
-Test: "It should recognize action integer 2"
-Code: robogerIntegerId2(2)
-Expected output: true
+## Setup/Installation Requirements
 
+* _Clone this repository to your desktop_
+* _Navigate to the top level of the directory_
+* _Open index.html in your browser_
 
-Describe: robogerIntegerId3
-
-Test: "It should recognize action integer 3"
-Code: robogerIntegerId1(3)
-Expected output: true -->
-
-
-<!-- Describe: robogerIntegerId
-
-Test: "It should recognize all instances of an action integer in a number."
-Code:
-    robogerIntegerId(25)
-Expected output: true, false -->
-
-<!-- Describe: robogerId1
-
-Test: "It should recognize all instances of action integer 1 in a number."
-Code:
-    robogerIntegerId(14)
-Expected output: true, false
-
-Describe: robogerId2
-
-Test: "It should recognize all instances of action integer 2 in a number."
-Code:
-    robogerIntegerId(24)
-Expected output: true, false
-
-Describe: robogerId3
-
-Test: "It should recognize all instances of an action integer 3 in a number."
-Code:
-    robogerIntegerId(53)
-Expected output: false, true -->
-
+## Tests
 
 Describe: loopToNumber(num) 
 
@@ -63,18 +29,33 @@ Code: loopToNumber(6)
 Expected output: [0, 1, 2, 3, 4, 5, 6]
 
 
-Describe: robogerId
+Describe: robogerMessage
 
 Test: "For numbers containing an action integer 1, it should replace the entire number with 'Beep!'"
-Code: robogerId1(14)
-Expected output: 'Beep!'
+Code: robogerMesage1(14)
+Expected output: 'beep!'
 
 Test: "For numbers containing action integer 2, it should replace the entire number with 'Boop!'"
-Code: robogerId(25)
-Expected output: 'Boop!'
+Code: robogerMessage(25)
+Expected output: 'boop!'
 
 Test: "For numbers containing action integer 3, it should replace the entire number with 'Won't you be my neighbor?'"
-Code: robogerId(35)
-Expected output: "Won't you be my neighbor?"
+Code: robogerMessage(35)
+Expected output: "won't you be my neighbor?"
+
+## Known Bugs
+
+* _Undefined is displayed upon submit regardless of form completion._
+
+## License
+
+* _MIT_
+
+Copyright (c) _2023_ _Molly Donegan_
+
+
+
+
+
 
 
